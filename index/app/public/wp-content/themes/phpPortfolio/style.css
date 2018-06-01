@@ -1,0 +1,46 @@
+/*
+Theme Name: phpPortfolio
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+
+Author: Tim Aro
+Author URI: https://finen-timaro.se
+Description: This is a wordpress site .
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: phpPortfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+  text-align: right;
+  background-color: black;
+}
+
+#ttr_sidebar{
+  border-left: 1px solid black;
+  background-color: blue;
+}
+
+#ttr_footer{
+  width: 100%;
+  border-top: 1px #a2a2a2 solid;
+  text-align: center;
+  background-color: green;
+}
+
+#ttr_content{
+  background-color: red;
+}
+
+.title{
+  font-size: 11pt;
+  font-family: verdana;
+  font-weight: bold;
+  color: yellow;
+}
+
+.backgroundColor{
+  background-color: pink;
+}

@@ -1,0 +1,66 @@
+2018/06/01 12:32:02 Using in-memory storage
+2018/06/01 12:32:02 [SMTP] Binding to address: 0.0.0.0:1025
+2018/06/01 12:32:02 Serving under http://:1080/
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Starting session
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Received 16 bytes: 'EHLO localhost\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: ESTABLISH] In ESTABLISH state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 21 bytes: '250-Hello localhost\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 16 bytes: '250-PIPELINING\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Received 35 bytes: 'MAIL FROM:<www-data@ae533668b2d3>\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@ae533668b2d3>
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@ae533668b2d3>'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: MAIL] In MAIL state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 37 bytes: '250 Sender www-data@ae533668b2d3 ok\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] In RCPT state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] Got RCPT command
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Received 6 bytes: 'DATA\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] Processing line: DATA
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] In RCPT state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: RCPT] Got DATA command, switching to DATA state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Received 1024 bytes: 'To: timaro@live.se\r\nSubject: [WordpressThemePortfolio] Your site has updated to WordPress 4.9.6\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 1 Jun 2018 12:32:43 +0000\r\nFrom: WordPress <wordpress@wordpressthemeportfolio.local>\r\nMessage-ID: <4b75d4003993ce8b73affc56efc8a332@wordpressthemeportfolio.local>\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nHowdy! Your site at http://wordpressthemeportfolio.local has been updated automatically to WordPress 4.9.6.\r\n\r\nNo further action is needed on your part. For more on version 4.9.6, see the About WordPress screen:\r\nhttp://wordpressthemeportfolio.local/wp-admin/about.php\r\n\r\nIf you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.\r\nhttps://wordpress.org/support/\r\n\r\nYou also have some plugins or themes with updates available. Update them now:\r\nhttp://wordpressthemeportfolio.local/wp-admin/\r\n\r\nThe WordPress T'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Received 10 bytes: 'eam\r\n\r\n.\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2018/06/01 12:32:43 Parsing Content from string: 'To: timaro@live.se
+Subject: [WordpressThemePortfolio] Your site has updated to WordPress 4.9.6
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Fri, 1 Jun 2018 12:32:43 +0000
+From: WordPress <wordpress@wordpressthemeportfolio.local>
+Message-ID: <4b75d4003993ce8b73affc56efc8a332@wordpressthemeportfolio.local>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Howdy! Your site at http://wordpressthemeportfolio.local has been updated automatically to WordPress 4.9.6.
+
+No further action is needed on your part. For more on version 4.9.6, see the About WordPress screen:
+http://wordpressthemeportfolio.local/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+You also have some plugins or themes with updates available. Update them now:
+http://wordpressthemeportfolio.local/wp-admin/
+
+The WordPress Team
+'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Storing message dxLBckeZ5Rld7wzomfi4pqlKLzxtRd8RCW4U_NZFzCs=@mailhog.example
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 80 bytes: '250 Ok: queued as dxLBckeZ5Rld7wzomfi4pqlKLzxtRd8RCW4U_NZFzCs=@mailhog.example\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Received 6 bytes: 'QUIT\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: MAIL] Processing line: QUIT
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Sent 9 bytes: '221 Bye\r\n'
+2018/06/01 12:32:43 [SMTP 127.0.0.1:34542] Session ended
