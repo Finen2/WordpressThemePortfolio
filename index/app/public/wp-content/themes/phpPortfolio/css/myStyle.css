@@ -10,7 +10,7 @@ Text Domain: phpPortfolio
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-
+/* 
 body{
   text-align: right;
   background-color: yellow;
@@ -52,4 +52,4 @@ body{
   width: 20%;
   height: 100vh;
   background-color: red;
-}
+} */

@@ -11,6 +11,11 @@
   <body>
 
     <div id="ttr_header" class="jumbotron sideHeader">
-      <?php include('navbar.php'); ?>
+      <div id="ttr_content" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 colorWhite">
+        <?php include('navbar.php'); ?>
+      </div>
+      <div id="ttr_content" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 colorWhite">
+      </div>
+      <div id="ttr_content" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 colorWhite">
+      </div>
     </div>
-    <div class="container">

@@ -12,8 +12,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 body{
-  text-align: right;
-  background-color: black;
+  text-align: left;
 }
 
 #ttr_sidebar{
@@ -28,10 +27,6 @@ body{
   background-color: green;
 }
 
-#ttr_content{
-  background-color: red;
-}
-
 .title{
   font-size: 11pt;
   font-family: verdana;
@@ -39,6 +34,35 @@ body{
   color: yellow;
 }
 
-.backgroundColor{
-  background-color: grey;
+.container{
+  width: 80%;
+  max-width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.jumbotron{
+  margin:0;
+  padding: 0;
+  position: fixed;
+  width: 20%;
+  max-width: 20%;
+  height: 100vh;
+  margin-left: 80%;
+  background-color: rgb(55, 29, 76);
+  color: #fff;
+}
+
+.singlePost{
+  width: 80%;
+  max-width: 80%;
+  background-color: red;
+}
+
+.colorWhite{
+  border: 15px dotted white;
+  width: 100%;
+  max-width: 100%;
+  height: calc(100vh / 3);
 }
