@@ -1,5 +1,6 @@
 
     <?php get_header(); ?>
+    <?php include('headBox.php'); ?>
     <div class="container backgroundColor">
       <div id="ttr_main" class="row">
         <div id="ttr_content" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 singlePost">
