@@ -1,4 +1,4 @@
       <div id= "ttr_footer">
-        <h1>FOOTER</h1>
+        <h6>Presented by Tim Aro</h6>
+        <p>Powerd by Wordpress</p>
       </div>
-    

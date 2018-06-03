@@ -15,6 +15,7 @@
         <?php include('navbar.php'); ?>
       </div>
       <div id="ttr_content" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 colorWhite">
+          <h2>Menu</h2>
           <?php wp_nav_menu( array( 'theme_location' => 'additional-menu' ) ); ?>
       </div>
       <div id="ttr_content" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 colorWhite">
