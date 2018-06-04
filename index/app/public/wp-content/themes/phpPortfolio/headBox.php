@@ -1,3 +1,3 @@
 <div class="topBox">
-  <h1>HeadTop</h1>
+  <h1><?php echo get_bloginfo( 'name' ); ?></h1>
 </div>
